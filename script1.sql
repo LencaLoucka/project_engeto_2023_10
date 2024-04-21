@@ -3,7 +3,6 @@
 CREATE TABLE IF NOT EXISTS t_lenka_loucka_project_SQL_primary_final AS
 SELECT 
 	cp.payroll_year,
-	cp.payroll_quarter,
 	cp.value AS avg_value,
 	cpib.code AS industry_branch_code,
 	cpib.name AS industry_name,
