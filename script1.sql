@@ -1,6 +1,6 @@
 
 
-CREATE TABLE IF NOT EXISTS t_Lenka_Loucka_project_SQL_primary_final AS
+CREATE TABLE IF NOT EXISTS t_lenka_loucka_project_SQL_primary_final AS
 SELECT 
 	cp.payroll_year,
 	cp.payroll_quarter,
