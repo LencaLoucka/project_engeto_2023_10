@@ -20,7 +20,7 @@ FROM (
 					max(payroll_year)
 				FROM t_lenka_loucka_project_sql_primary_final tll
 				WHERE food_category IS NOT NULL)
-		GROUP BY payroll_year)av
+		GROUP BY payroll_year) av
 LEFT JOIN (
 		SELECT 
 			payroll_year,
@@ -29,6 +29,6 @@ LEFT JOIN (
 		FROM t_lenka_loucka_project_sql_primary_final tll
 		WHERE food_category = 114201
 			OR food_category = 111301
-		GROUP BY food_name,payroll_year)av2
+		GROUP BY food_name,payroll_year) av2
 ON av.payroll_year = av2.payroll_year;
 
