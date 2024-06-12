@@ -1,5 +1,3 @@
-
-
 CREATE TABLE IF NOT EXISTS t_lenka_loucka_project_SQL_primary_final AS
 SELECT 
 	cp.payroll_year,
